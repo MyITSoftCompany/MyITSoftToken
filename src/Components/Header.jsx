@@ -1,10 +1,10 @@
 import React from "react";
 import "../Styles/Header.css"
-import { useTgHook } from "../Hooks/useTgHook";
+import useTgHook from "../Hooks/useTgHook";
+
 const Header = () => {
 
     const {user , onClose} = useTgHook
-    console.log(ures?.username)
     return(
         <header className="Header">
             <span className="userName">{user?.username}</span>

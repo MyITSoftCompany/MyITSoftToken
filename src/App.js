@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import './App.css';
 import Header from "./Components/Header";
 import Button from "./Components/Buttons/Button";
-import { useTgHook } from './Hooks/useTgHook';
+import useTgHook from './Hooks/useTgHook';
 
 const tg = window.Telegram.WebApp
 
