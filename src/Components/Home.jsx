@@ -1,14 +1,20 @@
 import React from "react";
-import useTgHook from "../Hooks/useTgHook";
 import Header from "./Header";
 
-function Home(){
-    const {onToggleButton , tg} = useTgHook
+const tg = window.Telegram.WebApp
 
+function Home(){
+
+    const onToggleButton = () =>{
+        if(tg.MainButton.isVisivle){
+            tg.MainButton.hide();
+        }else{
+            tg.MainButton.show();
+        }
+    }
     useEffect(() => {
         tg.ready();
       }, [ ])
-
 
     return(
         <>
