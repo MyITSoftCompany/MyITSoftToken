@@ -8,7 +8,7 @@ export function useTgHook(){
       
     const onToggleButton = () =>{
         if(tg.MainButton.isVisivle){
-            tg.MainButton.show();
+            tg.MainButton.hide();
         }else{
             tg.MainButton.show();
         }
