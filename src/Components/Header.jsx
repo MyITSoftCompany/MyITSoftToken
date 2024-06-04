@@ -4,6 +4,7 @@ import { useTgHook } from "../Hooks/useTgHook";
 const Header = () => {
 
     const {user , onClose} = useTgHook
+    console.log(ures)
     return(
         <header className="Header">
             <span className="userName">{user?.username}</span>
