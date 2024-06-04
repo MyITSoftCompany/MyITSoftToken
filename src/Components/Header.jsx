@@ -1,11 +1,13 @@
 import React from "react";
 import "../Styles/Header.css"
+import { useTgHook } from "../Hooks/useTgHook";
 const Header = () => {
 
-    const tg = window. Telegram.WebApp;
+    const {user , onClose} = useTgHook
     return(
         <header className="Header">
-            <span className="userName">{tg.initDataUnsafe?.user?.username}</span>
+            <span className="userName">{user?.username}</span>
+            <button onClick={onClose}>Close</button>
         </header>
     )
 }
