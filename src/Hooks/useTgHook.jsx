@@ -1,6 +1,6 @@
 const tg = window.Telegram.WebApp
 
-export function useTgHook(tg){
+export function useTgHook(){
 
     const onClose = () =>{
         tg.close()
