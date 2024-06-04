@@ -1,6 +1,6 @@
 const tg = window.Telegram.WebApp
 
-const useTgHook = () => {
+const useTgHook = (tg) => {
 
     const onClose = () =>{
         tg.close()
@@ -13,11 +13,13 @@ const useTgHook = () => {
             tg.MainButton.show();
         }
     }
+    alert(tg.initDataUnsafe?.user)
     return{
         onClose,
         onToggleButton,
         tg,
         user: tg.initDataUnsafe?.user,
     }
+    
 }
 export default useTgHook;

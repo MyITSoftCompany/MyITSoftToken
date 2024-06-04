@@ -7,7 +7,7 @@ const Header = () => {
     const {user , onClose} = useTgHook
     return(
         <header className="Header">
-            <span className="userName">{user?.username}wfdgbfvs</span>
+            <span className="userName">{user?.username}</span>
             {/* <button onClick={onClose}>Close</button> */}
         </header>
     )
