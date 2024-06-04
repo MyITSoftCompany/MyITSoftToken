@@ -1,6 +1,7 @@
 import React from "react";
 import "../Styles/Header.css"
 
+
 const Header = () => {
     const tg = window.Telegram.WebApp
 
@@ -11,7 +12,7 @@ const Header = () => {
     return(
         <header className="Header">
             <span className="userName">{tg.initDataUnsafe?.user?.username}</span>
-            <button onClick={onClose}>Close</button>
+            <button onClick={onClose} className="button">X</button>
         </header>
     )
 }

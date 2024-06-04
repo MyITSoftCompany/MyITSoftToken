@@ -1,6 +1,5 @@
-const tg = window.Telegram.WebApp
-
-const useTgHook = (tg) => {
+const useTgHook = () => {
+    const tg = window.Telegram.WebApp
 
     const onClose = () =>{
         tg.close()
