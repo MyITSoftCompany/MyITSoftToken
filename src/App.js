@@ -3,9 +3,11 @@ import './App.css';
 import Header from "./Components/Header";
 import Button from "./Components/Buttons/Button";
 import { useTgHook } from './Hooks/useTgHook';
+const tg = window.Telegram.WebApp
 
 function App() {
-  const {onToggleButton , tg} = useTgHook
+
+  const {onToggleButton } = useTgHook
 
   useEffect(() => {
     tg.ready();
