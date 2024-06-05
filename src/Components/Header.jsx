@@ -1,7 +1,8 @@
 import React from "react";
 import "../Styles/Header.css"
 
-const Header = () => {
+function Header () {
+    
     const tg = window.Telegram.WebApp
 
     const onClose = () =>{

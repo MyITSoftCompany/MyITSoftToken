@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "./Header";
 
 const tg = window.Telegram.WebApp
@@ -12,6 +12,7 @@ function Home(){
             tg.MainButton.show();
         }
     }
+
     useEffect(() => {
         tg.ready();
       }, [ ])
