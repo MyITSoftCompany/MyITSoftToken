@@ -1,7 +1,6 @@
 import React from "react";
 import "../Styles/Header.css"
 
-
 const Header = () => {
     const tg = window.Telegram.WebApp
 
