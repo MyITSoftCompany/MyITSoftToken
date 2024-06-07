@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Header from "./Header";
+import Canvas from "./Canvas";
 
 const tg = window.Telegram.WebApp
 
@@ -20,6 +21,7 @@ function Home(){
     return(
         <>
             <Header />
+            {/* <Canvas /> */}
             <button onClick={onToggleButton}>Toggle</button>
         </>
     )
