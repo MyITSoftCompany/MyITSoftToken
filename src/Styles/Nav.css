@@ -1,0 +1,14 @@
+nav{
+    width: 100%;
+}nav li{
+    height: 50px;
+    background: radial-gradient(100% 100% at 50% 0%, #5BABF2 0%, #1E47AD 99.99%, rgba(111, 145, 172, 0) 100%);
+}nav li:nth-child(1){
+    width: 90%;
+}nav li:nth-child(2){
+    width: 80%;
+}nav li:nth-child(3){
+    width: 70%;
+}nav li:nth-child(4){
+    width: 60%;
+}
