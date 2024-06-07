@@ -12,7 +12,7 @@ function Header () {
     return(
         <header className="Header">
             <span className="userName">{tg.initDataUnsafe?.user?.username}</span>
-            <button onClick={onClose} className="button">X</button>
+            <button onClick={onClose} className="exitHeader">X</button>
         </header>
     )
 }
