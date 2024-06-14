@@ -1,14 +1,14 @@
 import React from "react";
-
+import "../Styles/Nav.css"
 function Nav () {
 
     return(
         <nav>
             <ul>
-                <li>
+                <li className="nan">
 
                 </li>
-                <li>
+                <li className="VoisCantrol">
 
                 </li>
                 <li className="IconsNav">
