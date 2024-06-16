@@ -9,15 +9,25 @@ nav{
 }nav ul li{
     height: 50px;
 }.nan{
-    width: 90%;
-    background: radial-gradient( #5BABF2 0%, #1E47AD 99.99%, rgba(111, 145, 172, 0) 100%);
-}.VoisCantrol{
     width: 85%;
     background: radial-gradient( #5BABF2 0%, #1E47AD 99.99%, rgba(111, 145, 172, 0) 100%);
-}.IconsNav{
+}.VoisCantrol{
     width: 80%;
     background: radial-gradient( #5BABF2 0%, #1E47AD 99.99%, rgba(111, 145, 172, 0) 100%);
-}.CopyWritong{
+}.IconsNav{
     width: 75%;
     background: radial-gradient( #5BABF2 0%, #1E47AD 99.99%, rgba(111, 145, 172, 0) 100%);
+}.copyRigth{
+    width: 70%;
+    background: radial-gradient( #4a5d6d 0%, #0b1b44 99.99%, rgba(111, 145, 172, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin: auto;
+    cursor: default;
+} .copyRigth span a{
+    text-decoration: none;
+    color: rgba(91, 175, 240, 1);
 }

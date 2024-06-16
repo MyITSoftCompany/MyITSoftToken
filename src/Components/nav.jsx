@@ -14,8 +14,8 @@ function Nav () {
                 <li className="IconsNav">
 
                 </li>
-                <li className="CopyWritong">
-
+                <li className="copyRigth">
+                    <p>Copyright 2024 <span><a href='#top'>"MyToken"</a></span> Created by <span><a href='#top'>"MyITSoft"</a> Company</span> | All Rights Reserved</p>
                 </li>
             </ul>
         </nav>
